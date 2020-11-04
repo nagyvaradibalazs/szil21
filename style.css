@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	letter-spacing: 2pt;
+
+}
+
+.start {
+	height: 812pt;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 0.8s ease-in-out;
+}
+
+.start h1 {
+	font-size: 44pt;
+	color: white;
+	background: black;
+	padding: 10pt;
+	border-radius: 10pt;
+	cursor: pointer;
+}
+
+.start p {
+	text-align: center;
+	font-size: 26pt;
+	margin-top: 300pt;
+	margin-bottom: 200pt;
+	margin-left: 100pt;
+	margin-right: 100pt;
+}
+
+.container {
+	height: 812pt;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
+.progress {
+	height: 20pt;
+	width: 350pt;
+	content: "";
+	margin-top: 100pt;
+	border-radius: 10pt;
+	border: 3pt solid black;
+}
+
+.fill {
+	position: relative;
+	z-index: -2;
+	height: 14pt;
+	width: 0%;
+	border-radius: 10pt;
+	background: green;
+	content: "";
+	transition: width 0.8s ease-in-out;
+}
+
+.card {
+	height: 600pt;
+	width: 300pt;
+	border-radius: 10pt;
+	border: 5pt solid black;
+	margin-top: 300pt;
+	transition: opacity 0.8s ease-in-out;
+	transition: border-color, 0.2s ease-in-out;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card h1 {
+	text-align: center;
+	margin-top: 50pt;
+	font-size: 26pt;
+}
+
+.card p {
+	height: 250pt;
+	margin-left: 30pt;
+	margin-right: 30pt;
+	margin-top: 50pt;
+	margin-bottom: 50pt;
+	font-size: 20pt;
+}
+
+.card input {
+	height: 200pt;
+	width: 200pt;
+	margin-left: 30pt;
+	margin-right: 30pt;
+	font-size: 150pt;
+	text-align: center;
+	border-radius: 10pt;
+	border: 5pt solid black;
+}
+
+.card span {
+	height: 50pt;
+	font-size: 50pt;
+	cursor: pointer;
+	margin-bottom: 20pt;
+}
+
+.finish {
+	height: 812pt;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.finish h1 {
+	font-size: 220pt;
+	padding: 10pt;
+	border-radius: 10pt;
+}
+
+.finish p {
+	text-align: center;
+	font-size: 44pt;
+	margin-top: 300pt;
+	margin-bottom: 200pt;
+	margin-left: 100pt;
+	margin-right: 100pt;
+}

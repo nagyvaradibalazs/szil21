@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<title>Szil 21</title>
+</head>
+<body>
+	<div class="start">
+		<p>Üdvözöllek a játékban! 21 kérdésre kell helyesen válaszolnod, mindegyikre egy emoji-val. A legtöbb kérdésre több megoldás is létezik, több válasz is efogadható.</p>
+		<h1 onclick="start()">Start</h1>
+	</div>
+	<div class="container">
+		<div class="progress">
+			<div class="fill"></div>
+		</div>
+		<div class="cards">
+			<div class="card">
+				<h1>Level 1</h1>
+				<p>Egy vicces emlék Varsóból:</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 2</h1>
+				<p>A sport ami régóta meghatároz:</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 3</h1>
+				<p>Hogy kezdődött a barátságunk a Veresben?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 4</h1>
+				<p>Aztán szinte egyből el is költöztél... Mi jellemzi legjobban Amerikát?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 5</h1>
+				<p>Sajnos már évek óta nehezebb a kommunikáció köztünk. Hogyan írnád le?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 6</h1>
+				<p>Mekkora hét volt New York-ban. Hotelszoba?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 7</h1>
+				<p>Az állat akit első "kaszinózáson nyertünk:</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 8</h1>
+				<p>A LeBron meccs:</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 9</h1>
+				<p>Meccsről jut eszembe, mi a helyzet a VIP jegyekkel?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 10</h1>
+				<p>Azért néha hazajössz. Mit játszunk minden alkalommal?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 11</h1>
+				<p>Ha sokáig tart a game, hogyan lehet haza tömegezni?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 12</h1>
+				<p>Mi jut eszedbe az estéről, ahonnan van egy Gróf selfie?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 13</h1>
+				<p>2020 kicsit más volt. Milyen a korona?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 14</h1>
+				<p>Hogyan telt az idei tavasz?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 15</h1>
+				<p>Ha néha fel is keltél, csak egy hely volt ahova menni lehetett:</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 16</h1>
+				<p>Aztán persze megnyíltak a stadionok. Két szín:</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 17</h1>
+				<p>A zenei ízlésed kifejezetten jó. Milyen emojival írnád le?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 18</h1>
+				<p>Egy nagyon új skill, amit mostanában szereztél:</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 19</h1>
+				<p>Hogyan jutottál el a jelenlegi csaj helyzethez?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 20</h1>
+				<p>Miért megy/menne a srácom Spanyolországba?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+			<div class="card">
+				<h1>Level 21</h1>
+				<p>Mi lesz a program utána Helsinkiben?</p>
+				<input type="text" class="field">
+				<span onclick="check()">➤</span>
+			</div>
+		</div>
+	</div>
+	<div class="finish">
+		<p>Gratulálok!</p>
+		<h1>🎂</h1>
+	</div>
+	<script src="script.js"></script>  
+</body>
+</html>
